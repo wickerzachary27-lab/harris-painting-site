@@ -12,7 +12,6 @@ import {
   Star,
   ShieldCheck,
   Quote,
-  Heart,
   Sparkles,
 } from "lucide-react";
 
@@ -167,8 +166,8 @@ export default function HomePage() {
                   Lead-Paint Certified
                 </span>
                 <span className="inline-flex items-center gap-2">
-                  <Heart size={16} strokeWidth={1.8} />
-                  CCB# 198322
+                  <ShieldCheck size={16} strokeWidth={1.8} />
+                  Oregon License · CCB# 198322
                 </span>
               </div>
             </div>
@@ -429,9 +428,14 @@ export default function HomePage() {
                       Senior &amp; military discounts available.
                     </span>
                     <br />
-                    <span className="text-cream/60 text-xs mt-3 block">
-                      CCB# 198322
-                    </span>
+                    <a
+                      href="https://search.ccb.state.or.us/search/search_detail.aspx?id=198322"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cream/70 text-xs mt-3 block hover:text-terra transition-colors underline underline-offset-4 decoration-cream/30"
+                    >
+                      Oregon CCB License #198322 — verify at ccb.oregon.gov
+                    </a>
                   </p>
                 </div>
               </div>
@@ -450,7 +454,7 @@ export default function HomePage() {
               <div>
                 <p className="font-serif text-2xl">Harris Painting LLC</p>
                 <p className="text-cream/70 text-sm mt-2">
-                  Eugene, OR &middot; CCB# 198322
+                  Eugene, OR &middot; Licensed in Oregon (CCB #198322)
                 </p>
               </div>
 
