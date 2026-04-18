@@ -459,7 +459,7 @@ export default function HomePage() {
                   (541) 556-7478
                 </a>
                 <a
-                  href="mailto:clifton@harrispaintingllc.com"
+                  href="mailto:hp@harrispaintingllc.com"
                   className="hover:text-terra transition-colors"
                 >
                   Email

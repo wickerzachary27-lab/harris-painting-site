@@ -43,7 +43,7 @@ export default function ContactForm() {
       message,
     ].join("\n");
 
-    const mailto = `mailto:clifton@harrispaintingllc.com?subject=${encodeURIComponent(
+    const mailto = `mailto:hp@harrispaintingllc.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
 
