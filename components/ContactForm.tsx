@@ -60,10 +60,18 @@ export default function ContactForm() {
             <Check size={32} strokeWidth={2.5} />
           </div>
           <h3 className="font-serif text-3xl text-forest mb-3">
-            Thanks — we&apos;ll be in touch.
+            Almost there — press send.
           </h3>
           <p className="text-muted max-w-md">
-            Your email should be open now. If not, give us a call at{" "}
+            Your email should be open now with your request ready to go. If
+            not, email{" "}
+            <a
+              href="mailto:hp@harrispaintingllc.com"
+              className="text-terra font-bold hover:underline"
+            >
+              hp@harrispaintingllc.com
+            </a>{" "}
+            or give us a call at{" "}
             <a
               href="tel:+15415567478"
               className="text-terra font-bold hover:underline"
